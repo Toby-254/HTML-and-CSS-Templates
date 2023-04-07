@@ -10,6 +10,9 @@ body {
     margin: 0px;
     font-family: diary angelique, cursive;
   }
+h1{
+	color: white;
+}
 
 #nav{
 	z-index: 100;
@@ -20,22 +23,20 @@ body {
 }
 
 .nav_1{
-	background-color:red;
+	background-color: red;
 }
 
 #full_container{
-	height: 1200px;
 	width: 100%;
 	display: flex;
-	flex_direction: row;
 }
 
 .container_1{
 	width: 50%;
-	background-color: green;
+	background-color: lightgreen;
 }
 
 .container_2{
 	width: 50%;
-	background-color: blue;
+	background-color: lightblue;
 }
